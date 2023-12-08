@@ -18,7 +18,7 @@ While not mandatory, using this annotation helps prevent accidental addition of 
 If an interface annotated with @FunctionalInterface contains more than one abstract method, it results in a compilation error.
 
 ## List of functional Interface in java
-1. Consumer<T>: Represents an operation that accepts a single input argument of type T and performs some operation without returning any result.
+1. Consumer<T>: Represents an operation that accepts a single input argument of type T and erforms some operation without returning any result.
 2. Supplier<T>: Represents a supplier of results. It does not take any arguments but provides a result of type T.
 3. Function<T, R>: Represents a function that accepts one argument of type T and produces a result of type R.
 4. Predicate<T>: Represents a predicate (boolean-valued function) of one argument.
